@@ -20,7 +20,7 @@ Applied AI / backend engineer who builds LLM products end to end, mostly with co
 
 ## Stack
 
-Python, FastAPI, LLM agents and RAG, speech-to-text, MongoDB, PostgreSQL/Supabase, Qdrant, Docker, React. Daily tools: Claude Code, OpenCode.
+Python, FastAPI, LLM agents and RAG, speech-to-text, MongoDB, PostgreSQL/Supabase, Qdrant, Docker, TypeScript, React, Next.js. Daily tools: Claude Code, OpenCode.
 
 ## Contact
 
