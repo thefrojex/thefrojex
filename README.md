@@ -4,11 +4,15 @@ Applied AI / backend engineer who builds LLM products end to end, mostly with co
 
 **Portfolio, demos and architecture: [thefrojex.github.io](https://thefrojex.github.io)** · [Resume (PDF)](https://thefrojex.github.io/resume.pdf)
 
+[![App Foundry demo: one prompt builds a working gym management app](https://thefrojex.github.io/media/app-foundry-poster.jpg)](https://thefrojex.github.io/#app-foundry)
+
+*▶ App Foundry demo (2:27): one prompt → a working gym management app with its own database. Click to watch.*
+
 ## What I've built
 
+- **App Foundry (private beta):** a prompt-to-app platform. A coding agent builds each app in its own isolated container, and publishing or rolling back is one click. Code is private; the high-level architecture is [on my portfolio](https://thefrojex.github.io/#app-foundry-architecture), with a [demo video](https://thefrojex.github.io/#app-foundry).
 - **[Zavyo](https://github.com/thefrojex/zavyo-showcase):** sole engineer on a multi-tenant WhatsApp + AI SaaS, covering backend, frontend, the RAG layer, billing and deployment. The production code is private; the showcase repo has the architecture and sanitized excerpts.
 - **WhatsApp voice-note CRM:** a team updates one shared CRM by sending WhatsApp voice notes or business-card photos. Transcription and LLM tool calls turn them into records, with row-level security and an audit trail. [3-minute demo](https://www.loom.com/share/bba737f7b9664ebd8966fa79235bf1db)
-- **App Foundry (private beta):** a prompt-to-app platform. A coding agent builds each app in its own isolated container, and publishing or rolling back is one click. Code is private; the high-level architecture is [on my portfolio](https://thefrojex.github.io/#app-foundry-architecture).
 - **[Spoken-English grammar scoring](https://github.com/thefrojex/shl-grammar-scoring):** SHL hiring assessment on Kaggle. Whisper passes, DeBERTa and an LLM rubric blended on 5-fold CV (public leaderboard RMSE 0.394).
 - **[offline-rag-stack](https://github.com/thefrojex/offline-rag-stack):** an air-gapped, self-hosted RAG system with a tested no-egress guarantee. A script probes DNS, TCP and HTTP from every container and fails if anything gets out.
 - **[LiteLLM PR #45358](https://github.com/BerriAI/litellm/pull/45358):** fixes Vercel AI Gateway embedding models being registered as chat models, so the proxy health check resolved them as chat. Open PR, not merged.
